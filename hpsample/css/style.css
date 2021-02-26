@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* 冒頭でimport */
+@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap&subset=japanese');
+/* フォントを指定したいところで */
+
+.mybutton {
+  display       : inline-block;
+  border-radius : 20px;          /* 角丸       */
+  font-size     : 15pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 42px;   /* 余白       */
+  background    : rgb(255,107,107);     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid rgb(255,107,107);    /* 枠の指定 */
+}
+logo img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* 画像のトリミング */
+}
+
+logotohome img{
+    border-radius: 70%;
+    width: 70px;
+    height: 70px;
+    object-fit: cover; /* 画像のトリミング */
+}
+
+
+
+/* ========== common ========== */
+html, body {
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #393939;
+    margin-left: 15px;
+    margin-bottom: 40px;
+	background: #efefef;
+}
+h1{
+    text-indent: 0em;
+}
+h2{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+h3{
+    margin-left: 2em;
+}
+p,div,ul,ol{
+    margin-left: 3em;
+}
+span.blackback{
+    text-indent: 3em;
+    background: #393939;
+    color: #efefef;
+}
+
